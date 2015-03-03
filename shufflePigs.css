@@ -2,3 +2,54 @@ img {
   border-radius: 50px;
 }
 
+header {
+	text-align: center;
+	background-image: url('http://www.worldanimalprotection.org.br/Images/pig-banner_tcm28-26490.jpg')
+}
+
+button {
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+body {
+	background-color: #A8D2E6;
+}
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #45c7c1), color-stop(1, #2a60bd));
+	background:-moz-linear-gradient(top, #45c7c1 5%, #2a60bd 100%);
+	background:-webkit-linear-gradient(top, #45c7c1 5%, #2a60bd 100%);
+	background:-o-linear-gradient(top, #45c7c1 5%, #2a60bd 100%);
+	background:-ms-linear-gradient(top, #45c7c1 5%, #2a60bd 100%);
+	background:linear-gradient(to bottom, #45c7c1 5%, #2a60bd 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#45c7c1', endColorstr='#2a60bd',GradientType=0);
+	background-color:#45c7c1;
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+	border-radius:35px;
+	border:8px solid #629fa1;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:22px;
+	padding:16px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 4px #346137;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2a60bd), color-stop(1, #45c7c1));
+	background:-moz-linear-gradient(top, #2a60bd 5%, #45c7c1 100%);
+	background:-webkit-linear-gradient(top, #2a60bd 5%, #45c7c1 100%);
+	background:-o-linear-gradient(top, #2a60bd 5%, #45c7c1 100%);
+	background:-ms-linear-gradient(top, #2a60bd 5%, #45c7c1 100%);
+	background:linear-gradient(to bottom, #2a60bd 5%, #45c7c1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a60bd', endColorstr='#45c7c1',GradientType=0);
+	background-color:#2a60bd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

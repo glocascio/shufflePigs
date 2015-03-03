@@ -6,7 +6,7 @@ $('#shufflePigs').on('click', function() {
       after($('img:eq(' + rand + ')')).
       insertBefore($('img:eq(' + rand + ')'))
     if(m) {
-      setTimeout(shuffle, 125, m);
+      setTimeout(shuffle, 200, m);
     }
   };
 
